@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Product = () => {
+const Product = ({product}) => {
   return (
-    <div>Product</div>
+    <>
+        <div class="card-body">
+            <h5 class="card-title">{product.name}</h5>
+            <p class="card-text">{product.description}</p>
+        </div>
+    </>
   )
 }
 

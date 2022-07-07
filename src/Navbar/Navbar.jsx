@@ -4,13 +4,13 @@ import image from '../assets/search.png'
 const Navbar = () => {
   return (
     <>
-    <nav class="navbar bg-light">
-        <div class="container-fluid">
-            <nav class="navbar-brand">Navbar</nav>
-            <form class="d-flex" role="search">
-                <input class="form-control me-3" type="search" placeholder="Search item" aria-label="Search" />
+    <nav className="navbar bg-light">
+        <div className="container-fluid">
+            <nav className="navbar-brand">Navbar</nav>
+            <form className="d-flex" role="search">
+                <input className="form-control me-3" type="search" placeholder="Search item" aria-label="Search" />
                   <img src={ image } alt="search" width='40px' height='40px' />
-                <div className='container'>
+                <div classNameName='container'>
                   <img src={ logo } alt="trolley" width='40px' height='40px' />
                 </div>
             </form>
